@@ -15,6 +15,7 @@ public class hat : MonoBehaviour {
 			GameObject.Find ("hat").transform.parent = GameObject.Find ("EthanHead").transform;
 			GameObject.Find ("hat").transform.localPosition = new Vector3 (0.0f,0.0f,0.0f);
 			GameObject.Find ("hat").transform.localRotation = new Quaternion (0.0f,0.0f,0.0f,0.0f);
+			Debug.Log ("book");
 		}
 	}
 	
